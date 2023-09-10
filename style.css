@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    background: rgb(255, 35, 108);
+    align-items: center;
+}
+.logo{
+    color: #ece805;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+nav{
+    text-align: center;
+    margin-left: 350px;
+    justify-content: center;
+}
+.navbar a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: rgb(242, 255, 0);
+}
+.header-btn a {
+    margin-left: 200px;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.header-btn .login {
+    background: rgb(159, 8, 181);
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.header-btn .login:hover {
+    background: #d2f106;
+}
+/* home */
+.home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url('/Images/cutm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.home h1{
+    margin-top: 100px;
+    font-size: 3rem;
+}
